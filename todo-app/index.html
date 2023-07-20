@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <form id="todo-form">
+        <label for="tname">Task:</label><br>
+        <input type="text" id="tname" name="tname"><br>
+        <button id="addTaskButton">Add Task</button>
+    </form>
+    
+    
+    <div id="taskList">
+        <h2>To Do:</h2>
+        <ul></ul>
+    </div>
+
+    <div id="taskDone">
+        <h2>Done:</h2>
+        <ul></ul>
+    </div>
+    
+    <script src="js/model/todoModel.js"></script>
+    <script src="js/view/todoView.js"></script>
+    <script src="js/controller/todoController.js"></script>
+</body>
+</html>
